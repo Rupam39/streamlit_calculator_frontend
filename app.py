@@ -8,7 +8,7 @@ st.write("This app connects to a FastAPI calculator service.")
 # Define the API base URL
 #api_url = "http://0.0.0.0:9321" #run the /Users/rupam/VS Code Workspaces/Outskill/ClassDayNotes/21-09-2025/4_calculator.py
 
-api_url = "https://api-example-l0uu.onrender.com"
+api_url = "https://streamlit-calculator-backend.onrender.com"
 
 # Initialize session state to store the calculator display and current operation
 if 'display' not in st.session_state:
